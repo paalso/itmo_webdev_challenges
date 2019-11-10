@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 430px;
+    min-height: 280px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    background: #ecf0f1;
+}
+
+.main-menu {
+    width: 100%;
+}
+
+ul {
+    margin-top: 0;
+    margin-left: -40px;
+}
+
+
+.main-menu li {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-right: -4px;
+    /*border: dotted 1px red;*/
+    border-left: solid 2px #2C3E50;
+    background: #2980B9;
+}
+
+.main-menu li.active {
+    background: #1ABC9C;
+}
+
+.main-menu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.main-menu li a:hover {
+}

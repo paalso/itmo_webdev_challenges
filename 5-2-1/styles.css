@@ -1,0 +1,69 @@
+﻿body {
+    width: 300px;
+    margin: 0; 
+    padding: 0;
+    padding-top: 15px;
+    font-size: 0;
+    text-align: center;
+    background: white;
+}
+
+.block {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+.block1,
+.block2,
+.block3,
+.block6 {background-position: center;}
+
+.block1, 
+.block2 {
+    background-image: url('https://htmlacademy.ru/assets/course13/cat_poo.png');
+}
+
+.block2 {
+    background-color: #f1c40f;
+}
+
+.block3 {
+    background-color: #e74c3c;
+    background-image: url('https://htmlacademy.ru/assets/course13/cat_hiss.png');        
+}
+
+.block4,
+.block5 {
+    background-color: #3498db;
+    background-image: url('https://htmlacademy.ru/assets/course13/cat_walk.png');
+}
+
+.block4 {background-position: 60px center;}
+.block5 {background-position: -30px center;}
+
+.block6 {
+    background-color: #27ae60;
+    background-image: url('https://htmlacademy.ru/assets/course13/cat_slippers.png');
+}
+
+.block7,
+.block9 {
+    background-color: #bdc3c7;
+}
+
+.block8,
+.block9 {background-image: url('https://htmlacademy.ru/assets/course13/cat_grumpy.png');}
+
+.block8 {
+    background-color: #95a5a6;
+    background-position: 41px center;
+}
+
+.block9 {
+    background-position: -50px center ;
+}

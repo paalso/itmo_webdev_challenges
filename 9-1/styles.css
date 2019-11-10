@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 280px;
+    min-height: 280px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+    line-height: 1.2;
+    background: #ecf0f1;
+}
+
+.main {
+    width: 200px;
+    padding: 20px 20px 17px 20px;
+    /*background: url("/assets/course14/social-challenge.png") no-repeat;*/
+    background-color: #1abc9c;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.share {
+    margin: 0 auto;
+}
+
+.social {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    background: #16a085 url("http://assets/course14/social-challenge.png") no-repeat;
+}
+
+.social .social-fb {
+    /*background: url("/assets/course14/social-challenge.png") no-repeat 10px;*/
+}
+
+.social-tw {
+    background: #16a085 url("http://assets/course14/social-challenge.png") no-repeat -30px 0;
+}
+
+.social-gp {
+    background: #16a085 url("http://assets/course14/social-challenge.png") no-repeat -60px 0;
+}

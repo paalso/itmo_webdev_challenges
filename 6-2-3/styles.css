@@ -1,0 +1,90 @@
+html, body{
+    margin:0;
+    padding:0;
+}
+body{
+    width:450px;
+    height:300px;
+    font-family:'Arial', sans-serif;
+    font-size:12px;
+}
+.gallery{
+    padding-top:10px;
+}
+.gallery .item{
+    width:125px;
+    margin:0 10px;
+    margin-bottom:10px;
+}
+.gallery .title{
+    margin-bottom:5px;
+    line-height:14px;
+}
+.gallery .frame{
+    background:#ECF0F1;
+}
+.gallery .image{
+    height:70px;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+}
+.gallery .image-1{
+    background-color:#2ECC71;
+    background-image:url('https://htmlacademy.ru/assets/course13/cat_box.png');
+}
+.gallery .image-2{
+    background-color:#3498DB;
+    background-image:url('https://htmlacademy.ru/assets/course13/cat_fish.png');
+}
+.gallery .image-3{
+    background-color:#f1c40f;
+    background-image:url('https://htmlacademy.ru/assets/course13/cat_purr.png');
+}
+.gallery .image-4{
+    background-color:#E67E22;
+    background-image:url('https://htmlacademy.ru/assets/course13/cat_walk.png');
+}
+.gallery .image-5{
+    background-color:#E74C3C;
+    background-image:url('https://htmlacademy.ru/assets/course13/cat_drunk.png');
+}
+.gallery .date{
+    color:#666;
+    font-style:italic;
+    font-size:11px;
+}
+
+.gallery .item {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.item:nth-child(1) {
+    margin-left: 18px;
+}
+.item:nth-child(2) {
+    margin-left: 7px;
+}
+
+.item:nth-child(4) {
+    margin-left: 90px;
+}
+
+.item:nth-child(5) {
+    margin-left: 7px;
+}
+
+.frame {
+    padding-top: 10px;
+    border: 1px solid black;
+}
+
+.image {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.date {
+    padding: 5px 5px 5px 5px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Испытание: редактирование профиля</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Профиль</h1>
+
+        <form action="/echo" method="post">
+            Ваш пол: 
+            <input type="radio" name="sex" value="male">
+            Мужской
+            <input type="radio" name="sex" value="female" checked>
+            Женский
+            <br>
+            
+            Месяц и год рождения:<br>
+            <select name="month" id="">
+                <option value="1">Январь</option>
+                <!--<option value="2">Февраль</option>-->
+            </select>
+            <select name="year" id="">
+                <option value="1990">1990</option>
+                <option value="1989">1989</option>
+            </select>
+
+            <br>
+            Знакомые технологии:<br>
+            <select multiple name="technologies[]" id="" size="4">
+                <option value="html">HTML</option>
+                <option value="css" selected>CSS</option>
+                <option value="js">JavaScript</option>
+                <option value="nodejs">Node.js</option>
+            </select>
+            <br>
+            
+            Фото:
+            <input type="file" name="photo">
+            <br>
+            <input type="submit" value="Сохранить">
+        </form>
+        
+    </body>
+</html>

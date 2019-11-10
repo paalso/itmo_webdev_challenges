@@ -1,0 +1,50 @@
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+table {
+    border-collapse: collapse;
+    width: 350px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+
+}
+
+th {
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: darkcyan;
+    color: white;
+}
+
+th.col2 {
+    background-color: lightblue;
+}
+
+.col1, .col2, .col3 {
+    width: 33%;
+}
+
+.col1 {
+    text-align: left;
+}
+
+.col2 {
+    text-align: center;
+}
+
+.col3 {
+    text-align: right;
+}
+
+.row-even {
+        background-color: lightyellow;
+}
